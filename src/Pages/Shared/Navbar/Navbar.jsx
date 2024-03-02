@@ -1,5 +1,5 @@
-
-
+import logo1 from '../../../assets/Miro (1).png';
+import { FaArrowRightLong } from "react-icons/fa6";
 
 
 const Navbar = () => {
@@ -36,7 +36,9 @@ const Navbar = () => {
                         <li><a href="#">Pricing</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl">
+                    <img src={logo1} alt="" className='w-20' />
+                </a>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
@@ -72,7 +74,12 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <div className='text-[#050038] text-[16px]'>
+                    <a className='mr-4' href="#">EN</a>
+                    <a className='mr-4' href="#">Contact Sales</a>
+                    <a className='mr-4' href="#">Login</a>
+                </div>
+                <a className="btn bg-[#4262FF] text-white hover:bg-[#4262FF]">Sign up free <FaArrowRightLong /></a>
             </div>
         </div>
     );
