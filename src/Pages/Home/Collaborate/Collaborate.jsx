@@ -25,7 +25,7 @@ const Collaborate = () => {
                     <p className="text-lg text-[#55545799]">at our<span className="text-[#4262FF]">Trust Center .</span></p>
                 </div>
             </div>
-            <div className="mt-32 flex justify-center items-center">
+            <div className="mt-24 flex justify-center items-center">
                 <button className="btn bg-[#4262FF] text-white rounded-full hover:bg-[#4262FF] px-8">Sign up free <FaArrowRightLong /></button>
             </div>
         </div>
