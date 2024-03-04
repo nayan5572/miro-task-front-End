@@ -5,24 +5,6 @@ import img1 from "../../../assets/banner2.png"
 
 
 
-
-// const WeWorkBanner = () => {
-//     return (
-//         <div className="">
-//             <div className="">
-//                 <img src={img1} alt="" />
-//             </div>
-//             <div className="">
-//                 <h2>The Ways We Work</h2>
-//                 <p>How has our relationship with work changed?</p>
-//                 <button className="btn bg-[#4262FF] text-white rounded-full hover:bg-[#4262FF] px-8">Sign up free <FaArrowRightLong /></button>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default WeWorkBanner;
-
 const WeWorkBanner = () => {
     return (
         <div className="bg-cover bg-center h-[500px] relative mt-32" style={{backgroundImage: `url(${img1})`}}>
