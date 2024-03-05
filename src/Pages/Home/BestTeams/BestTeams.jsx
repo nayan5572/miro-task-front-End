@@ -31,7 +31,7 @@ const BestTeams = () => {
                 <div className="">
                     <h1 className="text-4xl font-semibold">frog</h1>
                     <p className="mt-11">“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”</p>
-                    <div className="flex mt-24">
+                    <div className="flex mt-[105px]">
                         <div className="mr-5">
                             <img src={img2} alt="" />
                         </div>

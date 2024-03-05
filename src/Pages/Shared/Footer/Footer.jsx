@@ -1,25 +1,11 @@
-
+import img1 from "../../../assets/footerImg.png"
 
 
 
 const Footer = () => {
     return (
         <div className="bg-[#02033B] mt-11">
-            <footer className="footer p-10 bg-[#02033B] w-[1130px] mx-auto text-white">
-                {/* <nav>
-                    <h6 className="footer-title">Services</h6>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
-                </nav>
-                <nav>
-                    <h6 className="footer-title">Company</h6>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
-                </nav> */}
+            <footer className="footer p-10 bg-[#02033B] w-[1130px] mx-auto text-white grid grid-cols-3 gap-5">
                 <nav>
                     <h6 className="footer-title mb-9">Scan. Detect. Remove.</h6>
                     <div className="grid grid-flow-col gap-4 mb-9">
@@ -46,6 +32,22 @@ const Footer = () => {
                             <h1>- Help</h1>
                             <h1>- About</h1>
                             <h1>- Insights</h1>
+                        </div>
+                    </div>
+                </nav>
+                <nav>
+                    {/* style={{backgroundImage: `url(${img1})`}} */}
+                    <div className="relative">
+                        <div className="relative">
+                            <img className="" src={img1} alt="" />
+                        </div>
+                        <div className="absolute bottom-0 text-center p-9">
+                            <h1 className="text-[#02033B] text-[23px] font-semibold mt-4">Sign up to our newsletter</h1>
+                            <p className="text-[#02033B] mt-4">Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
+                            <div className="join">
+                                <input className="input input-bordered join-item" placeholder="Email address" />
+                                <button className="btn join-item bg-[#02033B] text-white">Submit</button>
+                            </div>
                         </div>
                     </div>
                 </nav>
